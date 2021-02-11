@@ -146,6 +146,9 @@
     <ClInclude Include="fences.h" />
     <ClInclude Include="release_acquire_atomic.h" />
     <ClInclude Include="runtime_reordering.h" />
+    <ClInclude Include="spinlock_mutex.h" />
+    <ClInclude Include="threadsafe_lut.h" />
+    <ClInclude Include="threadsafe_queue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

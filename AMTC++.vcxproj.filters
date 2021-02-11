@@ -32,5 +32,14 @@
     <ClInclude Include="release_acquire_atomic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="spinlock_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threadsafe_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threadsafe_lut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
