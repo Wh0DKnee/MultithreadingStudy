@@ -1,5 +1,6 @@
 #pragma once
 #include <atomic>
+#include <cassert>
 
 class spinlock_mutex
 {

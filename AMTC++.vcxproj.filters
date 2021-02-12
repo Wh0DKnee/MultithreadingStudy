@@ -41,5 +41,11 @@
     <ClInclude Include="threadsafe_lut.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="condition_variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="future.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

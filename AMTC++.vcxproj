@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,7 +144,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="compile_time_reordering.h" />
+    <ClInclude Include="condition_variable.h" />
     <ClInclude Include="fences.h" />
+    <ClInclude Include="future.h" />
     <ClInclude Include="release_acquire_atomic.h" />
     <ClInclude Include="runtime_reordering.h" />
     <ClInclude Include="spinlock_mutex.h" />
