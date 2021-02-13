@@ -1,5 +1,6 @@
 #pragma once
 #include <future>
+#include <atomic>
 #include <iostream>
 
 void example()

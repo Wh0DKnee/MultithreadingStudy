@@ -47,5 +47,11 @@
     <ClInclude Include="future.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="peterson_lock_broken.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="peterson_lock_fixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

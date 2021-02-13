@@ -147,6 +147,8 @@
     <ClInclude Include="condition_variable.h" />
     <ClInclude Include="fences.h" />
     <ClInclude Include="future.h" />
+    <ClInclude Include="peterson_lock_broken.h" />
+    <ClInclude Include="peterson_lock_fixed.h" />
     <ClInclude Include="release_acquire_atomic.h" />
     <ClInclude Include="runtime_reordering.h" />
     <ClInclude Include="spinlock_mutex.h" />
