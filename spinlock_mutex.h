@@ -10,7 +10,7 @@ public:
 
 	void lock()
 	{
-		while (!flag.test_and_set(std::memory_order_acquire)) { ; }
+		while (flag.test_and_set(std::memory_order_acquire)) { ; }
 	}
 
 	void unlock()
