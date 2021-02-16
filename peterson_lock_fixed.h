@@ -61,7 +61,7 @@ public:
 	"A-load", "A-write" happens-before "A-load". Thread 1 is guaranteed to see the interested[0] == true
 	at "A-load" and will therefore not acquire the lock.
 
-	If the value read is 0, then what???
+	If the value read is 0, then ?
 
 	*/
 };

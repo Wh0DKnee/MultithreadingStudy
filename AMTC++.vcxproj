@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -147,6 +147,9 @@
     <ClInclude Include="condition_variable.h" />
     <ClInclude Include="fences.h" />
     <ClInclude Include="future.h" />
+    <ClInclude Include="lock_free_queue_spsc.h" />
+    <ClInclude Include="lock_free_stack_fixed.h" />
+    <ClInclude Include="lock_free_stack_with_memory_leak.h" />
     <ClInclude Include="peterson_lock_broken.h" />
     <ClInclude Include="peterson_lock_fixed.h" />
     <ClInclude Include="release_acquire_atomic.h" />
@@ -154,6 +157,7 @@
     <ClInclude Include="spinlock_mutex.h" />
     <ClInclude Include="threadsafe_lut.h" />
     <ClInclude Include="threadsafe_queue.h" />
+    <ClInclude Include="threadsafe_queue_no_dummy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

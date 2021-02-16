@@ -53,5 +53,17 @@
     <ClInclude Include="peterson_lock_fixed.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="threadsafe_queue_no_dummy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lock_free_queue_spsc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lock_free_stack_with_memory_leak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lock_free_stack_fixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
