@@ -2,6 +2,13 @@
 #include <atomic>
 #include <memory>
 
+/*
+	Downside:
+	If the load is high and there is never a quiet period where
+	pop() isn't called frequently, the to_be_deleted list could
+	grow indefinitely.
+*/
+
 template <typename T>
 class lock_free_stack_fixed
 {

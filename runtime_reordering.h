@@ -7,18 +7,14 @@ std::atomic_int b = 0;
 
 void thread1()
 {
-	a.store(1, std::memory_order_relaxed);		// write 1 to a in thread1's cache
-	int c = b.load(std::memory_order_relaxed);	
-	
-	// write a back to main memory
+	a.store(1, std::memory_order_relaxed);
+	int c = b.load(std::memory_order_relaxed);
 }
 
 void thread2()
 {
-	b.store(1, std::memory_order_relaxed);		// write 1 to b in thread2's cache
+	b.store(1, std::memory_order_relaxed);
 	int d = a.load(std::memory_order_relaxed);
-
-	// write b back to main memory
 }
 
 /*

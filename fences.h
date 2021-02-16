@@ -18,7 +18,7 @@ void read_y_then_x()
 {
 	while (!y.load(std::memory_order_relaxed));
 	std::atomic_thread_fence(std::memory_order_acquire);	// can think of this as a "git pull" from main memory (sort of?),
-															// 
+															// so x will see the value written above
 	if (x.load(std::memory_order_relaxed))
 		++z;
 }
